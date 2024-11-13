@@ -7,6 +7,8 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    awscli2
+    ffmpeg
     fnm
     fzf
     gh
